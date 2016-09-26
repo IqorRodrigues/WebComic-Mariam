@@ -1,0 +1,109 @@
+      
+        
+        @font-face {
+          font-family: "Komika";
+          src: url("Fontes/Komika.ttf") format("truetype");
+        }
+
+        @font-face {
+          font-family: "Proza";
+          src: url("Fontes/Proza.ttf") format("truetype");
+        }
+
+        @import 'https://fonts.googleapis.com/css?family=Rubik:300';
+        
+     
+        
+        html{
+            position: relative;
+            min-height: 100%;
+        }
+        
+        
+        body {
+            margin: 0 0 25px;
+            opacity:0;
+        }
+        
+        
+        .container{     
+            max-width: 1120px;
+            margin:auto;
+            margin-top: 35px;
+        }
+        
+        
+        .titulo{
+            font-family: Komika;
+            font-size: 32px;
+            color: #e8e8e8;
+            bottom:0;
+        }
+        
+        
+        .texto{
+            font-family: Proza;
+            font-size: 18px;
+            color:#e8e8e8;
+            text-align: left;
+            bottom:0;
+            width:100%; 
+        }
+        
+        
+        .saibamais{
+            font-family: Proza;
+            font-size: 16px;
+            color:#f0b625;
+            text-align: left;   
+            text-decoration: none;  
+        }
+        
+    
+        .coluna {
+            width: 30%; /* 300px / 1020px */
+            float: left;
+            margin-right: -1%; /* 20 / 1020px */
+            margin-left: 4%; /* 40 / 1020px */
+        }
+     
+        
+        .coluna:last-child {
+            margin-right: 0;
+        }
+  
+        
+        #myCanvas{
+            display: block;
+            margin: auto;
+  
+            
+        }    
+        
+
+        footer{
+            border-top:1px solid; 
+            color: #404040;
+            background: rgba(24,24,24,0.3);
+            position: absolute;
+            bottom: -12%; 
+            width: 100%; 
+            height: 65px; 
+            text-align: center;
+        }
+    
+        .rodapeText{
+            font-family: 'Rubik', sans-serif;
+            font-size: 20px;
+            color:#606060;
+            margin-right: 10%;
+            margin-left: 10%;
+            text-decoration: none;
+        }
+        
+        
+        
+        #rodapeTexto{
+            margin-top: 2%;
+        }
+       
